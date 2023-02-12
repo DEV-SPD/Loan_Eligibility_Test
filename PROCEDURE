@@ -1,0 +1,17 @@
+1. DATA EXTRACTION
+2. DATA PRE-PROCESSING LIKE DROPPING MISSING VALUES, LABEL ENCODING OF CATEGORICAL VALUES
+3. CLUSTERING OUT NECESSARY VARIABLES FOR TRAINING
+4. PREPARING DATASET FOR TRAINING THE MODEL
+5. TRAINING THE MODEL
+6. DUMPING THE MODEL INTO A SINGLE FILE
+
+
+
+1. Data Extraction using pandas [pd.read_csv('')].
+2. DROPPING ROW WITH NULL VALUES USING dropna.
+3. Replaced the categorical values with binary values.
+4. Plotted the graphs for identifying which variable affects loan status the most.
+5. Prepared the data for training and testing.
+6. Made the ML model using support vector machine algorithm.
+7. Saved the model into a file using pickle module and named the file as Loan_Eligibility.
+
